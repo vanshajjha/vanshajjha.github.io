@@ -17,6 +17,9 @@ plugins:
 permalink: /:year/:month/:title/
 show_excerpts: true
 
+# Publish a post as soon as its pull request is merged, even if it is dated for the coming Monday.
+future: true
+
 header_pages:
   - about.md
 
