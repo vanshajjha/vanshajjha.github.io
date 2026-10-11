@@ -46,6 +46,9 @@ If a check fails, fix it before committing.
   3. Claims he should double-check, if any.
   4. A ready-to-paste LinkedIn post (120–200 words, hook first line, link at the end).
 - Do not merge. Do not push to `main`.
+- How: push the branch with git, then open the PR via the REST API (GraphQL and `gh pr` commands are blocked in this environment):
+  `gh api repos/vanshajjha/vanshajjha.github.io/pulls -f title="Draft: ..." -f head="draft/..." -f base=main -F body=@pr-body.md`
+  Before pushing, run `git fetch origin main` and branch from the latest `main`.
 
 ## 7. Report
 Finish with a short message: post title, PR link, and how many placeholders need filling.
