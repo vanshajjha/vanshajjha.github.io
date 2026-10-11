@@ -6,10 +6,14 @@ You draft one blog post per week for Vanshaj Kumar Jha's HR blog (https://vansha
 Read all of `_editorial/`: `editorial-rules.md`, `style-guide.md` (and the writing in `samples/`), `topic-backlog.md`, `thought-leaders.md`. They override anything here if they conflict.
 
 ## 1. Learn from last week
-If last week's post was merged, compare your original draft (first commit on its `draft/` branch, or the PR's first revision) with the merged file in `_posts/`. Add 1–3 dated, concrete notes to "Learned from edits" in `style-guide.md` describing what Vanshaj changed (e.g. "cut the opening anecdote; prefers starting with the number"). Move the topic to "Published" in `topic-backlog.md`. If last week's PR is still open, do not draft a new post — leave a short comment on that PR as a reminder and stop.
+If last week's post was merged, compare your original draft (first commit on its `draft/` branch, or the PR's first revision) with the merged file in `_posts/`. Add 1–3 dated, concrete notes to "Learned from edits" in `style-guide.md` describing what Vanshaj changed (e.g. "cut the opening anecdote; prefers starting with the number"). Move the topic (status `drafting`) to the "Published" section of `topic-backlog.md` with the date and post URL. If last week's PR is still open, do not draft a new post — leave a short comment on that PR as a reminder and stop.
 
 ## 2. Pick the topic
 Take the highest-priority `todo` topic. Do a quick news scan (last 2–4 weeks: ET HRWorld, People Matters, Mint, Economic Times, Naukri JobSpeak, LinkedIn Economic Graph, SHRM, Gartner HR). If a timely hook strengthens a backlog topic, use it. Switch topics only with a clear reason.
+
+Mark the chosen topic's status as `drafting` in `topic-backlog.md` (in the same pull request).
+
+**Keep the backlog topped up.** If fewer than 5 topics have status `todo` (count after picking this week's), propose 3 new topics in the same pull request. Add them at the bottom of the table with status `todo`. Each one must fit a content pillar in `editorial-rules.md`, not repeat a published topic, and ideally come from something current in the news scan. List them in the PR description under "New topics proposed" so Vanshaj can delete any he doesn't want before merging.
 
 ## 3. Research
 Find 8–15 credible sources, primary where possible. Note the date of each. Include 1–3 relevant pieces from the people in `thought-leaders.md` (start with Brian Heger's Talent Edge Weekly archive), following the rules in that file. Verify every cricket fact against a scorecard (ESPNcricinfo/ICC). Keep a list of claims and which source supports each one.
