@@ -1,0 +1,26 @@
+title: Vanshaj Jha
+description: >-
+  Commercial HR, people analytics and the craft of HR business partnering.
+  Notes from an HRBP on how people decisions move business outcomes.
+author:
+  name: Vanshaj Kumar Jha
+url: "https://vanshajjha.github.io"
+baseurl: ""
+
+theme: minima
+linkedin_username: vanshaj-kumar-jha
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /:year/:month/:title/
+show_excerpts: true
+
+header_pages:
+  - about.md
+
+# Editorial files are for the writing agent, not the public site.
+exclude:
+  - _editorial
+  - README.md
