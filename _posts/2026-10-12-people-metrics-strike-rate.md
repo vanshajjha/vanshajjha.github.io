@@ -1,53 +1,59 @@
 ---
 layout: post
 title: "Babar Azam Had the Runs. Pakistan Wanted the Strike Rate."
-description: "The 7 people metrics business leaders actually act on, and why most HR dashboards report the wrong ones."
+description: "The 7 people metrics business leaders actually act on, and why most HR dashboards are still reporting runs scored."
 tags: [people-analytics]
 ---
 
 Babar Azam!
 
-On paper, one of Pakistan's most prolific T20 batters: more than 4,200 T20I runs at an average close to 40. The kind of numbers that would sit proudly at the top of any dashboard.
+More than 4,200 T20I runs. An average close to 40. If cricketers had appraisal forms, his would be the one HR prints and frames.
 
-Yet in August 2025, when Pakistan picked their squad for the Asia Cup, Babar wasn't in it.
+And yet, in August 2025, Pakistan named their Asia Cup squad, and Babar wasn't in it.
 
-Just picture this scene: you're the selector. Your most decorated batter is in the room, and his scorecard looks fantastic. Do you leave him out?
+Just picture this scene: you're the selector. Your most decorated batter walks into the room with a scorecard that looks like a promotion case. You look him in the eye and say, "Lovely numbers. Not the ones we need."
 
-Pakistan did. Head coach Mike Hesson explained that the team wanted Babar to improve against spin and raise his strike rate, which sat around 129 at the time. In T20 cricket, a batter who scores 40 off 35 balls can look good on the scorecard and still cost you the match.
+That is roughly what happened. Head coach Mike Hesson said the team wanted Babar to get better against spin and lift his strike rate, which sat around 129 at the time. In T20 cricket, 40 off 35 balls looks great on the scorecard and can still lose you the match. The runs arrive, just slightly after the match has left.
 
 So, what was really going on?
 
-Pakistan's selectors had stopped asking "how many runs?" and started asking "how many runs, how fast, in the overs that decide matches?" Same player, same data. A different question, and a very different decision.
+Pakistan's selectors had stopped asking "how many runs?" and started asking "how many runs, how fast, in the overs that decide matches?" Same player. Same data. A different question, and a very different decision.
 
-That is exactly the gap between most HR dashboards and what business leaders actually want.
+Which brings me to the monthly HR review.
 
 ## The scorecard most HR teams present
 
-Open a typical monthly HR review and you'll find headcount, overall attrition, training hours, hiring numbers and an engagement score. All true. All carefully compiled. And very often, all followed by a polite nod and the leader moving on to the next slide.
+Open a typical HR deck and you'll find three things: headcount, training hours, and an engagement score that went up two points. Nobody can explain why. Not even the survey vendor.
 
-These are runs-scored metrics. They describe activity. They rarely change a decision.
+Every slide is accurate and carefully compiled. And somewhere around slide 9, the business leader asks the question every HRBP dreads:
 
-The evidence suggests this matters. In Insight222's People Analytics Trends 2025/26 study of 372 organisations, 52% reported measurable business improvements from people analytics. Among the leading teams, the ones that focus their work on the priorities that matter most to the C-suite, that figure rose to 90%. The difference isn't more data. It's asking the leader's question instead of HR's.
+*"Okay… so what do you want me to do?"*
 
-Brian Heger, who curates HR research for business partners in his *Talent Edge Weekly* newsletter, makes a related point well: start from the business strategy, work out the capabilities it needs, and only add complexity to HR tools when the value clearly outweighs the effort. A 40-metric dashboard fails that test.
+These are runs-scored metrics. They describe activity. They rarely change a decision. Every HRBP has built at least one dashboard whose only regular visitor is the HRBP who built it.
+
+The evidence says the fix isn't more data. In Insight222's People Analytics Trends 2025/26 study of 372 organisations, 52% reported measurable business improvements from people analytics. Among the leading teams, the ones that focus their work on the priorities the C-suite actually cares about, that figure jumped to 90%. Same discipline. A different question.
+
+Brian Heger, who curates research for HR business partners in his *Talent Edge Weekly* newsletter, puts the principle simply: start from the business strategy, work out the capabilities it needs, and only add complexity to HR tools when the value clearly outweighs the effort. A 40-metric dashboard fails that test before the first chart loads.
+
+And yes, AI can now build that dashboard for you. Forty charts in forty seconds. Choosing the one chart the CEO needs still takes a human who has sat through enough of the CEO's meetings to know what keeps them up at night. The AI has the data. You have the context.
 
 ## The 7 metrics leaders actually act on
 
-These are my picks for a business unit leader in a tech or services business. Each one connects to revenue, margin or delivery risk.
+These are my picks for a business unit leader in a tech or services business. Each one connects to revenue, margin or delivery risk, which is the strike rate of the business.
 
-**1. Regretted attrition in critical roles.** Overall attrition is the batting average: useful, but it hides who left. Aon reported Indian attrition at 16.2% in 2025, down from 17.7% in 2024. A leader doesn't need the average. They need to know whether the three people their biggest client account depends on are among the leavers.
+**1. Regretted attrition in critical roles.** Overall attrition is the batting average: useful, but it hides who got out. Aon reported Indian attrition at 16.2% in 2025, down from 17.7% in 2024. A leader doesn't need the average. They need to know whether the three people their biggest client account depends on are among the leavers.
 
-**2. Time to productivity.** How many weeks before a new joiner delivers independently? Every week shaved off is capacity the business gets back without hiring anyone.
+**2. Time to productivity.** How many weeks before a new joiner delivers on their own? Every week shaved off is capacity the business gets back without hiring anyone.
 
-**3. Vacancy days on revenue-critical roles.** An open sales or delivery-lead seat isn't just a recruiting problem. It's revenue not being earned, or a client being served by someone stretched too thin.
+**3. Vacancy days on revenue-critical roles.** An open sales or delivery-lead seat isn't a recruiting statistic. It's revenue not being earned, or a client being served by someone stretched thinner than a Test-match fielding side on day five.
 
-**4. Revenue or gross margin per employee.** This is the strike rate of the whole business unit. Track it alongside cost per employee, and you can show whether headcount growth is adding value or just adding cost.
+**4. Revenue or gross margin per employee.** The strike rate of the whole business unit. Track it next to cost per employee, and you can show whether headcount growth is adding value or just adding chairs.
 
 **5. Manager-level spread on attrition and engagement.** Gallup has estimated that managers account for at least 70% of the variance in engagement scores across business units (Gallup, 2015). A unit-wide average hides the fact that a few teams may be driving most of the exits. Show the spread, not the mean.
 
-**6. Utilisation and bench (for services businesses).** Billable people sitting on the bench are pure margin leakage. People sitting at 100% utilisation for months are an attrition risk in disguise. Leaders care about both ends.
+**6. Utilisation and bench (for services businesses).** People sitting on the bench are pure margin leakage. People running at 100% utilisation for six months are an attrition risk wearing a high-performer costume. Leaders care about both ends.
 
-**7. Bench strength for critical roles.** For each role the business can't afford to lose, is there a ready successor? Internal fill rate and successor coverage tell a leader how exposed they are.
+**7. Bench strength for critical roles.** For every role the business can't afford to lose, is there a ready successor? Or is the succession plan a spreadsheet with "TBD" in a confident font?
 
 ## A worked example
 
@@ -55,25 +61,29 @@ Here's how the conversation changes. These numbers are hypothetical.
 
 Take a 400-person delivery unit in an IT services firm with an average annual cost of ₹12 lakh per employee. Regretted attrition is running at 12%, so 48 people the business wanted to keep walked out this year.
 
-Gallup estimates the cost of replacing an employee at between half and twice their annual salary, and calls even that conservative. Use the lower bound: ₹6 lakh per exit, or roughly **₹2.9 crore a year**. That's before counting lost client goodwill or the months new joiners take to reach full productivity.
+Gallup estimates the cost of replacing an employee at between half and twice their annual salary, and calls even that conservative. Take the lower bound: ₹6 lakh per exit, or roughly **₹2.9 crore a year**. That's before counting lost client goodwill or the months new joiners take to get up to speed.
 
-Now the HR review doesn't open with "attrition is 12%". It opens with: "Regretted attrition is costing us about ₹2.9 crore a year, and more than half of it is coming from four teams. Here's what we propose."
+Now watch the same review play out twice.
 
-Same data. A different question. A leader acts on the second version.
+**Version 1:** "Attrition is 12%." The leader nods, checks their phone and moves to the next slide.
+
+**Version 2:** "Regretted attrition is costing us about ₹2.9 crore a year, and more than half of it is coming from four teams. Here's what we propose." The leader puts the phone down.
+
+Same data. A different question. Only one of them gets a decision.
 
 > [YOUR EXAMPLE: a time a metric you surfaced (anonymised, no employer figures) changed a leader's decision, e.g. spotting attrition concentrated under a few managers.]
 
 ## How to know your dashboard is working
 
-Don't measure the dashboard by how many metrics it tracks. Measure it by three things:
+Don't judge a dashboard by how many metrics it tracks. Judge it by three things:
 
-- **Decisions taken.** How many actions did leaders take in the last quarter because of something you showed them?
-- **Pull, not push.** Do leaders ask for the numbers before the review, or do you have to chase them to look?
-- **Movement.** Are the metrics tied to those decisions actually moving? Regretted attrition in critical roles is the one to watch first.
+- **Decisions taken.** How many actions did leaders take last quarter because of something you showed them?
+- **Pull, not push.** Do leaders ask for the numbers before the review, or do you send three reminders and a calendar invite titled "Quick 15 mins"?
+- **Movement.** Are the metrics tied to those decisions actually moving? Start with regretted attrition in critical roles.
 
-If the honest answer to all three is "not really", the problem isn't the data. You're still reporting runs scored.
+If the honest answer to all three is "not really", the problem isn't your data. You're still reporting runs scored.
 
-**PS:** Strike rate isn't everything. Ask any Test opener who batted all day to save a match. Pick the metric that fits the format you're actually playing.
+**PS:** If your CEO asks for "one slide", they mean one slide. Not one slide with a 14-tab Excel embedded in it. Somewhere, an HRBP has tried it. It did not go well.
 
 ---
 
