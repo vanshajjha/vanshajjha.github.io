@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{%- assign words = content | number_of_words -%}
+{%- assign mins = words | divided_by: 220 | plus: 1 -%}
+<article class="post wrap">
+  <header class="post__head">
+    <p class="post__meta">
+      {%- if page.tags.size > 0 %}<span class="post__topic">{{ page.tags.first | replace: '-', ' ' | capitalize }}</span>{% endif %}
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
+      <span>{{ mins }} min read</span>
+    </p>
+    <h1 class="post__title">{{ page.title | escape }}</h1>
+    {%- if page.description %}<p class="post__dek">{{ page.description | escape }}</p>{% endif %}
+  </header>
+  <div class="prose">
+    {{ content }}
+  </div>
+  <aside class="post__end">
+    <p>Enjoyed this? I share a shorter take on every article on LinkedIn, and the comments are where the real arguments happen.</p>
+    <p><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/">Follow me on LinkedIn</a></p>
+    <p><a href="{{ '/' | relative_url }}">See all articles</a></p>
+  </aside>
+</article>
