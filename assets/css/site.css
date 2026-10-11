@@ -1,0 +1,176 @@
+/* Vanshaj Jha — site styles
+   Idea: a cricket scorecard for HR writing. Condensed scoreboard type for
+   names and titles, a calm serif for reading, pitch-green ink, ball-red accent. */
+
+:root {
+  --paper: #f3f6f2;      /* pitch-white */
+  --ink: #13261b;        /* pavilion green-black */
+  --muted: #56675b;
+  --rule: #cdd8cf;
+  --red: #a61e2d;        /* cricket-ball red */
+  --grass: #3f6b4a;
+  --board: #183a28;      /* scoreboard green */
+  --board-ink: #f3f6f2;
+
+  --display: "Big Shoulders Display", "Arial Narrow", sans-serif;
+  --serif: "Source Serif 4", Georgia, serif;
+
+  --measure: 40rem;
+  --wide: 60rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0f1a14;
+    --ink: #e4ebe5;
+    --muted: #9fb0a4;
+    --rule: #2a3a30;
+    --red: #e2626b;
+    --grass: #7fb08a;
+    --board: #1c3326;
+    --board-ink: #e4ebe5;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.125rem;
+  line-height: 1.7;
+  font-optical-sizing: auto;
+}
+
+a { color: inherit; text-decoration-color: var(--red); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+a:hover { color: var(--red); }
+:focus-visible { outline: 3px solid var(--red); outline-offset: 3px; }
+
+.wrap { width: 100%; max-width: var(--wide); margin: 0 auto; padding: 0 1.25rem; }
+
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: 1rem; background: var(--paper); padding: .5rem 1rem; z-index: 10; }
+
+/* Masthead */
+.masthead { border-bottom: 1px solid var(--rule); }
+.masthead__inner { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; padding-top: 1.1rem; padding-bottom: 1rem; flex-wrap: wrap; }
+.wordmark { font-family: var(--display); font-weight: 800; font-size: 1.75rem; letter-spacing: .01em; text-decoration: none; line-height: 1; }
+.wordmark:hover { color: var(--ink); }
+.masthead nav { display: flex; gap: 1.25rem; font-size: 1rem; }
+.masthead nav a { text-decoration: none; color: var(--muted); }
+.masthead nav a:hover, .masthead nav a[aria-current="page"] { color: var(--ink); text-decoration: underline; text-decoration-color: var(--red); }
+
+/* Hero: the scoreboard headline */
+.hero { padding-top: 4rem; padding-bottom: 3rem; }
+.hero__title {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(3rem, 8vw, 5.75rem);
+  line-height: .92;
+  letter-spacing: -.01em;
+  margin: 0;
+  max-width: 15ch;
+}
+.hero__intro { max-width: var(--measure); margin-top: 1.75rem; color: var(--muted); font-size: 1.2rem; }
+.hero__intro p { margin: 0; }
+
+/* Scorecard: the article list */
+.scorecard { padding-bottom: 5rem; }
+.scorecard__head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  background: var(--board); color: var(--board-ink);
+  padding: .7rem 1rem; border-radius: 3px 3px 0 0;
+}
+.scorecard__head h2 { font-family: var(--display); font-weight: 800; font-size: 1.6rem; margin: 0; line-height: 1; }
+.scorecard__total { margin: 0; font-family: var(--display); font-weight: 600; font-size: 1.1rem; }
+
+.scorecard table { width: 100%; border-collapse: collapse; }
+.scorecard th {
+  font-family: var(--display); font-weight: 600; font-size: 1rem; text-align: left;
+  color: var(--muted); padding: .6rem 1rem; border-bottom: 2px solid var(--ink);
+}
+.scorecard td { padding: 1.25rem 1rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.scorecard tbody tr:hover { background: color-mix(in srgb, var(--grass) 8%, transparent); }
+
+.col-date { width: 6.5rem; }
+.col-date time { font-family: var(--display); font-weight: 800; font-size: 1.35rem; line-height: 1.1; display: block; }
+.col-date time span { display: block; font-weight: 600; font-size: .95rem; color: var(--muted); }
+.col-topic { width: 11rem; color: var(--grass); font-size: 1rem; }
+.col-read { width: 5.5rem; text-align: right; white-space: nowrap; color: var(--muted); font-size: 1rem; }
+th.col-read { text-align: right; }
+.num { font-family: var(--display); font-weight: 800; font-size: 1.6rem; color: var(--ink); font-variant-numeric: tabular-nums; }
+
+.scorecard__title { font-family: var(--display); font-weight: 800; font-size: 1.7rem; line-height: 1.05; text-decoration: none; display: inline-block; }
+.scorecard__title:hover { color: var(--red); }
+.scorecard__desc { margin: .45rem 0 0; color: var(--muted); font-size: 1rem; line-height: 1.55; max-width: 34rem; }
+.scorecard__empty { padding: 1.5rem 1rem; border-bottom: 1px solid var(--rule); color: var(--muted); }
+
+/* Article */
+.post { padding-top: 3.5rem; padding-bottom: 4rem; }
+.post__head, .prose, .post__end { max-width: var(--measure); }
+.post__meta { display: flex; flex-wrap: wrap; gap: .4rem 1.25rem; margin: 0 0 1rem; font-size: 1rem; color: var(--muted); }
+.post__topic { color: var(--grass); font-weight: 600; }
+.post__title {
+  font-family: var(--display); font-weight: 800;
+  font-size: clamp(2.6rem, 6.5vw, 4.4rem); line-height: .98; letter-spacing: -.005em;
+  margin: 0;
+}
+.post__dek { font-size: 1.3rem; line-height: 1.5; color: var(--muted); margin: 1.25rem 0 0; font-style: italic; }
+.post__head { padding-bottom: 2rem; margin-bottom: 2.25rem; border-bottom: 2px solid var(--ink); }
+
+.prose > * + * { margin-top: 1.25em; }
+.prose p { margin-bottom: 0; }
+.prose h2 {
+  font-family: var(--display); font-weight: 800; font-size: 2.1rem; line-height: 1.05;
+  margin-top: 2em; margin-bottom: 0;
+}
+.prose h3 { font-family: var(--display); font-weight: 800; font-size: 1.5rem; line-height: 1.1; margin-top: 2em; }
+.prose strong { font-weight: 600; }
+.prose ul, .prose ol { padding-left: 1.25rem; }
+.prose li + li { margin-top: .5em; }
+.prose blockquote {
+  margin-left: 0; margin-right: 0; padding: .25rem 0 .25rem 1.25rem;
+  border-left: 4px solid var(--red); color: var(--muted); font-style: italic;
+}
+.prose hr { border: 0; border-top: 1px solid var(--rule); margin: 3rem 0; }
+.prose hr + h3 { font-size: 1.2rem; color: var(--muted); }
+.prose hr ~ ul { font-size: .95rem; line-height: 1.55; color: var(--muted); }
+.prose hr ~ p { font-size: .95rem; color: var(--muted); }
+.prose img { max-width: 100%; height: auto; }
+.prose code { font-size: .9em; background: color-mix(in srgb, var(--grass) 12%, transparent); padding: .1em .3em; border-radius: 3px; }
+
+.post__end {
+  margin-top: 3.5rem; padding: 1.5rem 1.5rem 1.25rem;
+  background: var(--board); color: var(--board-ink); border-radius: 3px;
+}
+.post__end p { margin: 0 0 .6rem; }
+.post__end p:first-child { font-size: 1.05rem; }
+.post__end a { font-family: var(--display); font-weight: 800; font-size: 1.3rem; text-decoration-color: var(--red); }
+.post__end a:hover { color: var(--board-ink); text-decoration-color: var(--board-ink); }
+
+/* Footer */
+.footer { border-top: 1px solid var(--rule); color: var(--muted); font-size: .95rem; }
+.footer__inner { padding-top: 1.75rem; padding-bottom: 2.5rem; }
+.footer p { margin: 0 0 .5rem; }
+.footer a + a { margin-left: 1.25rem; }
+
+/* Phones */
+@media (max-width: 640px) {
+  body { font-size: 1.0625rem; }
+  .hero { padding-top: 2.5rem; padding-bottom: 2rem; }
+  .col-topic { display: none; }
+  .col-date { width: 4.5rem; }
+  .scorecard td, .scorecard th { padding-left: .6rem; padding-right: .6rem; }
+  .scorecard__title { font-size: 1.4rem; }
+  .col-read { width: 3.75rem; }
+  .post { padding-top: 2.25rem; }
+  .prose h2 { font-size: 1.8rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}

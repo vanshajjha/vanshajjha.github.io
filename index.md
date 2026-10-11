@@ -3,4 +3,4 @@ layout: home
 title: Home
 ---
 
-Weekly notes on how HR creates business value: commercial HR, people analytics, organisation design and the craft of HR business partnering.
+I'm an HR business partner who thinks every people decision should start with how the business makes money. Each week I take one problem, usually via a cricket story, and work through what an HRBP should actually do about it.

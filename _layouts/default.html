@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  {%- seo -%}
+  {%- feed_meta -%}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap masthead__inner">
+      <a class="wordmark" href="{{ '/' | relative_url }}">Vanshaj Jha</a>
+      <nav aria-label="Main">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Articles</a>
+        <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/">LinkedIn</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p>Written by Vanshaj Jha, HR business partner. Views are my own and not those of any employer.</p>
+      <p><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/">Connect on LinkedIn</a> <a href="{{ '/feed.xml' | relative_url }}">Subscribe by RSS</a></p>
+    </div>
+  </footer>
+</body>
+</html>

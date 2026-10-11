@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<section class="hero wrap">
+  <h1 class="hero__title">People, profit and the occasional cover drive.</h1>
+  <div class="hero__intro">{{ content }}</div>
+</section>
+
+<section class="wrap scorecard" aria-labelledby="scorecard-title">
+  <div class="scorecard__head">
+    <h2 id="scorecard-title">Articles</h2>
+    <p class="scorecard__total">{{ site.posts.size }} innings so far</p>
+  </div>
+
+  {%- if site.posts.size > 0 -%}
+  <table>
+    <thead>
+      <tr>
+        <th scope="col" class="col-date">Date</th>
+        <th scope="col">Article</th>
+        <th scope="col" class="col-topic">Topic</th>
+        <th scope="col" class="col-read">Read</th>
+      </tr>
+    </thead>
+    <tbody>
+      {%- for post in site.posts -%}
+      {%- assign words = post.content | number_of_words -%}
+      {%- assign mins = words | divided_by: 220 | plus: 1 -%}
+      <tr>
+        <td class="col-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b" }}<span>{{ post.date | date: "%Y" }}</span></time></td>
+        <td>
+          <a class="scorecard__title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          {%- if post.description %}<p class="scorecard__desc">{{ post.description | escape }}</p>{% endif -%}
+        </td>
+        <td class="col-topic">{% if post.tags.size > 0 %}{{ post.tags.first | replace: '-', ' ' | capitalize }}{% endif %}</td>
+        <td class="col-read"><span class="num">{{ mins }}</span> min</td>
+      </tr>
+      {%- endfor -%}
+    </tbody>
+  </table>
+  {%- else -%}
+  <p class="scorecard__empty">The first article is on its way. Check back this week.</p>
+  {%- endif -%}
+</section>
