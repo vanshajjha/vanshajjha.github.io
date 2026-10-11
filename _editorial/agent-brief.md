@@ -39,6 +39,7 @@ End with a "Sources" section of markdown links, then the disclosure line.
 - No quote longer than one short sentence; at most one quote per source.
 - No invented facts about Vanshaj; no employer-confidential material.
 - 900–1,300 words; no banned phrases.
+- Humour: at least a funny hook or mid-post beat plus a funny PS; about one laugh per 300 words; a human-in-the-AI-loop beat if the topic touches AI or HR tech. Every joke is original, punches up or at Vanshaj himself, and passes the guardrails in `style-guide.md`. Invented anecdotes are clearly framed as jokes or hypotheticals.
 If a check fails, fix it before committing.
 
 ## 6. Open the pull request

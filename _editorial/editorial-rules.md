@@ -35,6 +35,9 @@ Every post should show that the author understands the business first and HR sec
   `> [YOUR EXAMPLE: one sentence on what would fit here]`
 - Never use confidential employer material (internal documents, role notes, org charts, unreleased numbers).
 
+## Tone
+Smart and funny. Humour follows the rules in `style-guide.md` (Humour section). The jokes open the door; the evidence and analysis have to be solid enough to stand without them.
+
 ## Disclosure
 Every post ends with: *Researched and drafted with AI assistance; reviewed and edited by the author.*
 
