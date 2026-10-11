@@ -44,7 +44,12 @@ If a check fails, fix it before committing.
   1. One-paragraph summary of the argument.
   2. Placeholders Vanshaj must fill (list them).
   3. Claims he should double-check, if any.
-  4. A ready-to-paste LinkedIn post (120–200 words, hook first line, link at the end).
+  4. A ready-to-paste LinkedIn post that **stands on its own** (Option B), so a reader gets real value without clicking:
+     - 150–250 words, in Vanshaj's voice (see `style-guide.md`).
+     - First line is the hook (usually the cricket moment, in one or two short lines).
+     - Then the 2–3 sharpest ideas from the article, stated plainly (not "read my post to find out").
+     - End with: "Full breakdown on my blog 👇" and the post URL, which is `https://vanshajjha.github.io/YYYY/MM/<slug>/` built from the post's filename.
+     - 3–5 relevant hashtags. No AI-disclosure line is needed on the LinkedIn post itself; the article carries it.
 - Do not merge. Do not push to `main`.
 - How: push the branch with git, then open the PR via the REST API (GraphQL and `gh pr` commands are blocked in this environment):
   `gh api repos/vanshajjha/vanshajjha.github.io/pulls -f title="Draft: ..." -f head="draft/..." -f base=main -F body=@pr-body.md`
