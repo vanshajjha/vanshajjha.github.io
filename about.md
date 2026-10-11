@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-I'm Vanshaj, an HR Business Partner. I write about the point where people decisions meet business outcomes: how a company makes money, what that demands of its workforce, and what HR should do about it.
+I'm Vanshaj, a People Success Business Partner at Searce, a technology company. I write about the point where people decisions meet business outcomes: how a company makes money, what that demands of its workforce, and what HR should do about it. Usually with a cricket story along the way.
 
 **What I've worked on**
 
-- Partnering with business leaders as an HRBP on performance management, succession planning, employee relations, organisation design and retention.
-- Leadership development at VOIS (Vodafone Intelligent Solutions), including the "Leads Others" first-time manager programme for 600+ new managers, recognised by the Economic Times HR Awards.
-- Building Power BI dashboards on promotions, internal movement, referrals and attrition to support data-driven people decisions.
+- **Business partnering.** At Searce and before that at VOIS (Vodafone Intelligent Solutions), I've partnered with technology and customer-care leaders on performance, retention, organisation design, employee relations and campus-to-corporate hiring.
+- **People analytics.** I build the dashboards behind leadership reviews, with Power BI, Looker Studio and BigQuery, to spot attrition and retention risk before it shows up in resignations.
+- **Leadership development.** I led VOIS's "Leads Others" first-time manager programme for 600+ new managers, recognised by the Economic Times HR Awards.
 
 **Background**
 
