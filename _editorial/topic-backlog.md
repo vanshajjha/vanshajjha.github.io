@@ -5,7 +5,7 @@ Priority: 1 = next up. Vanshaj can reorder, add or delete freely.
 
 | # | Pillar | Working title | Angle | Priority | Status |
 |---|---|---|---|---|---|
-| 1 | People analytics | The 7 people metrics BU leaders actually act on | Most HR dashboards report activity; leaders act on metrics tied to revenue, margin and delivery risk. Which ones, and how to present them. | 1 | todo |
+| 1 | People analytics | The 7 people metrics BU leaders actually act on | Most HR dashboards report activity; leaders act on metrics tied to revenue, margin and delivery risk. Which ones, and how to present them. | 1 | drafting |
 | 2 | Commercial HR | Read the P&L before the engagement survey | Why an HRBP's first 30 days should start with the business model and unit economics. | 2 | todo |
 | 3 | Commercial HR | Pay for performance in a services business | How utilisation, billing rates and margin should shape variable pay design. | 3 | todo |
 | 4 | HRBP craft | Spans and layers: the org design lever nobody explains | What spans of control cost, how to diagnose them, and when flattening backfires. | 4 | todo |
