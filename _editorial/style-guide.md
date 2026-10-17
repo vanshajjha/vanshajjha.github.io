@@ -78,3 +78,6 @@ Humour runs through the structure: a joke or funny scene in the hook, one beat w
 
 ## Learned from edits
 (The agent adds dated notes here after comparing its draft with the version Vanshaj merged.)
+
+- **2026-10-17 (from the 2026-10-12 post, PR #2):** Merged with no edits to the final draft, so the voice, structure, length (~1,200 words), cricket-to-business ratio and humour dose of that post are a safe baseline to repeat.
+- **2026-10-17:** The `[YOUR EXAMPLE]` placeholder went live unfilled on the published post. Use at most one or two placeholders, write each so the post reads fine if the line is simply deleted (say "Delete this line if nothing fits"), and list them at the top of the PR description.
